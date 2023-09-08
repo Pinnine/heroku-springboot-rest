@@ -13,7 +13,7 @@ public class RESTController {
 
     @PostMapping("/test")
     public String testPost() {
-        return "POST: test ok";
+        return "POST: test ok 2";
     }
     @GetMapping("/test")
     public String testGet() {
